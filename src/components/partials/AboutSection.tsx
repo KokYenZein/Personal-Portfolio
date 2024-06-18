@@ -13,10 +13,10 @@ const AboutSection = () => {
         {/* Bio */}
         <div className="">
           <p className="text-justify">
-            Hi, I am Yen Zein Kok. I am an aspiring data engineer, data scientist, and data analyst. Furthermore,
+            Hi, I am Yen Zein, you can call me YZ. I am an aspiring data engineer, data scientist, and data analyst. Furthermore,
             I am very passionate about AI and ML, especially in generative AI and Deep Learning.
           </p>
-          <Button className="mt-5">Download CV</Button>
+          <Button className="mt-5">Resume</Button>
         </div>
 
         {/* Skills */}

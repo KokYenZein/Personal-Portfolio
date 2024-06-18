@@ -16,8 +16,8 @@ const Menu = () => {
       <div className="mx-auto flex h-16 max-w-7xl items-center px-4 md:px-6">
         <Link href="/">
           <a className="text-3xl  font-bold">
-            <span>Pofology</span>
-            <span className="text-primary-500">.</span>
+            <span>Yen Zein</span>
+            <span className="text-primary-500"> Kok</span>
           </a>
         </Link>
         <ul className="ml-auto hidden items-center md:flex">

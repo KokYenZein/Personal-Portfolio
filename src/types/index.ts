@@ -13,7 +13,9 @@ export type Education = {
   degree: string;
   startDate: string;
   endDate: string;
+  grade: string;
   description: string;
+  relevantCourses: string[];
 };
 
 export type Service = {

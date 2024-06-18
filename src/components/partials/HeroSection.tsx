@@ -12,7 +12,7 @@ const HeroSection = () => {
       <HeroBackground />
       <div className="flex flex-col items-center">
         <div className="overflow-hidden rounded-full">
-          <Image src="/images/avatar/self-avatar.webp" width={180} height={180} alt="avatar" />
+          <Image src="/images/avatar/self-avatar.webp" width={250} height={250} alt="avatar" />
         </div>
         <h1 className="mt-4 text-3xl font-bold ">Yen Zein Kok</h1>
         <div className="mt-2 flex gap-1">
