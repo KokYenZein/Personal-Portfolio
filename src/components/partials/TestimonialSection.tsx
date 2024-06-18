@@ -16,7 +16,7 @@ const reviewSettings: Settings = {
 const Testimonial = () => {
   return (
     <>
-      <SectionTitle>Client Reviews</SectionTitle>
+      {/* <SectionTitle>Client Reviews</SectionTitle>
       <div className="mt-16">
         <Slider {...reviewSettings}>
           {reviews.map((review, index) => (
@@ -36,7 +36,7 @@ const Testimonial = () => {
             </div>
           ))}
         </Slider>
-      </div>
+      </div> */}
     </>
   );
 };
