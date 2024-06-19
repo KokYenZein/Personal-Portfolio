@@ -6,6 +6,7 @@ export type Experience = {
   startDate: string;
   endDate: string;
   description: string;
+  tools: string[];
 };
 
 export type Education = {
@@ -18,10 +19,13 @@ export type Education = {
   relevantCourses: string[];
 };
 
-export type Service = {
+export type Skill = {
   name: string;
-  description: string;
   image: string;
+  content: {
+    name: string;
+    image: string;
+  }[];
 };
 
 export type Work = {

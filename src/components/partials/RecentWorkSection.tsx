@@ -6,7 +6,7 @@ import Link from 'next/link';
 const RecentWorkSection = () => {
   return (
     <>
-      {/* <SectionTitle>Recent Works</SectionTitle>
+      <SectionTitle>Projects</SectionTitle>
       <div className="mt-10 grid gap-4 xs:grid-cols-2 md:grid-cols-3 md:gap-8">
         {works
           .filter((_, index) => index < 6)
@@ -25,7 +25,7 @@ const RecentWorkSection = () => {
         <Link href={'/works'}>
           <a className="btn">View All</a>
         </Link>
-      </div> */}
+      </div>
     </>
   );
 };
