@@ -28,7 +28,7 @@ export type Skill = {
   }[];
 };
 
-export type Work = {
+export type Project = {
   id: number;
   title: string;
   category: string;

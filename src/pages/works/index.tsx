@@ -1,24 +1,24 @@
 import Button from '@/components/form/Button';
 import PageTitle from '@/components/shared/PageTitle';
 import Portfolio from '@/components/shared/Portfolio';
-import { works } from '@/data/works';
+import { projects } from '@/data/projects';
 import AppLayout from '@/layouts/AppLayout';
 
 const work = () => {
   return (
-    <AppLayout title="Works">
+    <AppLayout title="Projects">
       <PageTitle
         breadcrumb={[
           { label: 'Home', path: '/' },
-          { label: 'Works', path: '' },
+          { label: 'project', path: '' },
         ]}
       >
-        Works
+        Projects
       </PageTitle>
 
       <div className="container py-10">
         <div className="grid gap-4 xs:grid-cols-2 md:grid-cols-3 md:gap-8">
-          {works.map((work) => (
+          {projects.map((work) => (
             <Portfolio
               key={work.id}
               imageUrl={work.thumbnailUrl}

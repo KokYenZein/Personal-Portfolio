@@ -26,11 +26,10 @@ const Contact = (props: Props) => {
             <h6 className="text-2xl font-bold">Contact with me</h6>
             <p className="mt-2">I would love to hear from you. 👋</p>
             <div className="mt-10 text-gray-400">
-              <p>3rd Floor, Abu Sayeed Market, Rampura</p>
-              <p>Dhaka, Bangladesh</p>
+              <p>Kuala Lumpur, Malaysia</p>
 
-              <p className="mt-4">+8801834507645</p>
-              <p>mostafizurhimself@gmail.com</p>
+              <p className="mt-4">+60 16 616 0801</p>
+              <p>ykok@uwaterloo.ca</p>
             </div>
           </div>
           <div className="col-span-2">

@@ -1,11 +1,10 @@
 import AboutSection from '@/components/partials/AboutSection';
 import BlogSection from '@/components/partials/BlogSection';
-import ProjectSection from '@/components/partials/ProjectSection';
 import ContactSection from '@/components/partials/ContactSection';
 import EducationSection from '@/components/partials/EducationSection';
 import ExperienceSection from '@/components/partials/ExperienceSection';
 import HeroSection from '@/components/partials/HeroSection';
-import RecentWorkSection from '@/components/partials/RecentWorkSection';
+import RecentProjectSection from '@/components/partials/RecentProjectSection';
 import SkillsSection from '@/components/partials/SkillsSection';
 import TestimonialSection from '@/components/partials/TestimonialSection';
 import AppLayout from '@/layouts/AppLayout';
@@ -33,7 +32,7 @@ const Home: NextPage = () => {
         <SkillsSection />
       </section>
       <section className="container py-16">
-        <RecentWorkSection />
+        <RecentProjectSection />
       </section>
       <section className="container py-16">
         <BlogSection />
