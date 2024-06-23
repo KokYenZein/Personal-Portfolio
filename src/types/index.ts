@@ -36,6 +36,7 @@ export type Project = {
   description?: string;
   images: string[];
   previewUrl: string;
+  githubLink: string;
   publishedAt: string;
   featureList: string[];
   attributes: {

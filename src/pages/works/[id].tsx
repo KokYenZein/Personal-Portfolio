@@ -46,7 +46,10 @@ const ProjectDetail: React.FunctionComponent<Props> = ({ project }) => {
           </Slider>
           <div className="mt-6 flex justify-center">
             <Link href={project.previewUrl}>
-              <a className="btn">Live Preview</a>
+              <a className="btn mr-4">Live Preview</a>
+            </Link>
+            <Link href={project.githubLink}>
+              <a className="btn ml-4">GitHub Link</a>
             </Link>
           </div>
         </div>
